@@ -13,13 +13,15 @@ In the Eclipse IDE
 2.  Expand Maven and select Existing Maven Projects.
 3.  Click Next.
 4.  For Root Directory, click Browse and select the top-level project folder.
-5.  Verify that the Projects list includes all subprojects and click Finish.
+5.  Verify that the Projects listed had the POM file checked and click Finish.
 
 
 # To Run the API
 
 This is a Maven project and may require a  "**Maven Update project"** to download the remote repositories.
 The project is using TestNG framework, so to run the class **weather.java**, select the **testng.xml** file in the root of the project , right mouse click, and **Run as TestNG Suite**
+
+If TestNG is not present in the project add it using these instructions : https://www.toolsqa.com/testng/install-testng/
  
 ## Tools / Framework
 
