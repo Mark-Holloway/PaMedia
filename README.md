@@ -32,7 +32,7 @@ I wrote what I believed to be the requirements for the project and to test some 
 
 I would have questioned the Product Owner for more information on what data they were expecting back from the API , so the test could have been more refined . I would have pressed the Customer a little more on what the Bug was with evidence there is an issue.  
 
-## What would do differently
+## What I could do differently
 
 This test would have been better using a BDD Cucumber framework , so the Dates / Locations could have been passed as Parameters from the Feature file,  thus not requiring a code change to update Date & Location parameters, Also various scenarios could have been run in the same execution.  
 This framework would have a feature file, Step Definitions, Page Object file , Hook file and a runner, so the code and project would be more granular and easier to maintain.
